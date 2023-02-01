@@ -1,4 +1,4 @@
-package one.devsky.boilerplates.annotations
+package dev.lupluv.boilerplates.annotations
 
 import org.bukkit.permissions.PermissionDefault
 

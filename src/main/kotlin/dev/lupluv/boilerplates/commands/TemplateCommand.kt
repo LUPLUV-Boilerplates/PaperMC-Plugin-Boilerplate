@@ -1,7 +1,7 @@
-package one.devsky.boilerplates.commands
+package dev.lupluv.boilerplates.commands
 
-import de.moltenKt.unfold.text
-import one.devsky.boilerplates.annotations.RegisterCommand
+import de.fruxz.stacked.text
+import dev.lupluv.boilerplates.annotations.RegisterCommand
 import org.bukkit.command.Command
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.CommandSender
@@ -10,7 +10,7 @@ import org.bukkit.permissions.PermissionDefault
 @RegisterCommand(
     name = "template",
     description = "Template command",
-    permission = "one.devsky.boilerplates.commands.template",
+    permission = "dev.lupluv.boilerplates.commands.template",
     permissionDefault = PermissionDefault.OP,
     aliases = ["temp"]
 )

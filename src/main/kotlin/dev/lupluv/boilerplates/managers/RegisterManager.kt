@@ -1,7 +1,7 @@
-package one.devsky.boilerplates.managers
+package dev.lupluv.boilerplates.managers
 
-import one.devsky.boilerplates.PaperBoilerplate
-import one.devsky.boilerplates.annotations.RegisterCommand
+import dev.lupluv.boilerplates.PaperBoilerplate
+import dev.lupluv.boilerplates.annotations.RegisterCommand
 import org.bukkit.Bukkit
 import org.bukkit.command.CommandExecutor
 import org.bukkit.command.PluginCommand
@@ -18,7 +18,7 @@ object RegisterManager {
      * Todo: Change the reflections path to match your package structure
      */
     fun registerAll() {
-        val reflections = Reflections("one.devsky.boilerplates")
+        val reflections = Reflections("dev.lupluv.boilerplates")
 
         val timeListeners = measureTimeMillis {
             for (clazz in reflections.getSubTypesOf(Listener::class.java)) {

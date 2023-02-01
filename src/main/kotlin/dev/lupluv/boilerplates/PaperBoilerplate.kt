@@ -1,6 +1,6 @@
-package one.devsky.boilerplates
+package dev.lupluv.boilerplates
 
-import one.devsky.boilerplates.managers.RegisterManager.registerAll
+import dev.lupluv.boilerplates.managers.RegisterManager.registerAll
 import org.bukkit.plugin.java.JavaPlugin
 import kotlin.system.measureTimeMillis
 
